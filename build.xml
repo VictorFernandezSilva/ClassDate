@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<project name="Class Date" basedir="." default="todo">
+<project name="Date" basedir="." default="todo">
     <property name="src" value="src"/>
     <property name="classes" value="classes"/>
     <property name="conf" value="etc"/>
@@ -18,7 +18,7 @@
     </target>
 
     <target name="run" depends="compile">
-      <java classname="es.unileon.prg.tema6.PruebaPractica">
+      <java classname="es.unileon.prg.date.MainDate">
          <classpath>
               <pathelement path="${classes}"/>
          </classpath>
